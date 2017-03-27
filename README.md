@@ -15,7 +15,7 @@
 
 This app will consist of a single screen with the board, current and best scores, new game button, and instructions.
 
-![alt text](https://github.com/knasirov/2048/wireframes/game_screen.xml "Wireframes")
+![alt text](https://github.com/knasirov/2048/wireframes/game_screen.png "Wireframes")
 
 ## Implementation timeline
 
