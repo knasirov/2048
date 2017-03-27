@@ -10,3 +10,20 @@
 - [ ] Current and best score
 - [ ] Smooth sliding of the tiles
 - [ ] Focusing effects when tiles merge
+
+## Wireframes
+
+This app will consist of a single screen with the board, current and best scores, new game button, and instructions.
+
+![alt text](https://github.com/knasirov/2048/wireframes/game_screen.png "Wireframes")
+
+## Implementation timeline
+
+##### Day 1
+Setting up the files structure and live url.
+
+##### Day 2
+Writing the game logic.
+
+##### Day 3
+Styling the board, transitions and effects.
