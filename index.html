@@ -5,6 +5,11 @@
     <title>2048</title>
     <link rel="stylesheet" type="text/css" href="./css/reset.css">
     <link rel="stylesheet" type="text/css" href="./css/2048.css">
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous">
+    </script>
   </head>
   <body>
     <div class="window">
@@ -12,27 +17,25 @@
         2048
       </header>
 
-      <div class="current-score">
-        Score:
+      <div class="nav">
+        <div class="scores">
+          <div class="current-score-div">
+            <p>Score</p>
+            <p id="current-score">0<p>
+          </div>
+
+          <div class="best-score-div">
+            <p>Best</p>
+            <p id="best-score">0<p>
+          </div>
+        </div>
+
+        <div class="btn-container">
+          <button type="button" name="button">New Game</button>
+        </div>
       </div>
 
       <div id="board">
-        <div class="empty-tile"></div>
-        <div class="empty-tile"></div>
-        <div class="empty-tile"></div>
-        <div class="empty-tile"></div>
-        <div class="empty-tile"></div>
-        <div class="empty-tile"></div>
-        <div class="empty-tile"></div>
-        <div class="empty-tile"></div>
-        <div class="empty-tile"></div>
-        <div class="empty-tile"></div>
-        <div class="empty-tile"></div>
-        <div class="empty-tile"></div>
-        <div class="empty-tile"></div>
-        <div class="empty-tile"></div>
-        <div class="empty-tile"></div>
-        <div class="empty-tile"></div>
       </div>
     </div>
 
